@@ -1,29 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root {
-    --clr-orange: #FFB562;
+    --clr-light-orange: #fcdac0;
+    --clr-light-yellow: #fffbe1;
+    --clr-orange: #f5a869;
+    --clr-dark-orange: #fca94a;
+    --clr-darker-orange: #DB6400;
+    --clr-light-gray: #b1b0b0;
+    --clr-gray: #646464;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.header-title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
 }
 
 .title {
-    font-family: 'Fugaz One', cursive;
     font-size: 36px;
+    font-weight: 700;
+}
+
+.content {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.time-table {
+    font-weight: 400;
+    color: var(--clr-gray);
+}
+
+.time {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--clr-light-gray);
 }
 
 .btn-sticky {
-    color: #FFFFFFFF;
-    border-radius: 50%;
-    /* position: -webkit-sticky;
     position: sticky;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25); */
-    transition: border-radius 0.25s;
-
-    bottom: -4px;
+    transition: all 0.25s;
+    bottom: 5%;
 }
 
-.btn-sticky:hover {
+.float-btn:hover {
     border-radius: 25%;
 }
 
 .float-btn {
+    color: #FFFFFFFF;
+    border-radius: 50%;
+    transition: all 0.25s;
     background-color: var(--clr-orange);
 }
+
+.btn-search:hover,
+.bi-funnel:hover {
+    border-color: var(--clr-orange);
+}
+
+.bi-pencil-square,
+.bi-trash {
+    color: var(--clr-orange);
+    transition: all 0.25s;
+}
+
+.bi-pencil-square:hover,
+.bi-trash:hover,
+.bi-x-circle:hover {
+    color: var(--clr-gray);
+}
+
+.bi-x-circle {
+    color: var(--clr-light-gray);
+    transition: all 0.25s;
+}
+
+
+/* .cc {
+    color: var(--clr-dark-orange);
+    transition: all 0.5s;
+} */
+
+
+/* .cc:hover {
+    color: #000000;
+} */
+
+
+/* .sc {
+    transition: all 0.25s;
+} */
+
+
+/* .sc:hover {
+    font-size: 25px;
+} */
