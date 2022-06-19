@@ -4,9 +4,13 @@ ANGGOTA KELOMPOK :
 3. Yulia Dwi Putri - 2017051016
 
 STUDI KASUS : 
-Todo List -> 
+Sistem berbasis web yang kami buat yaitu Todo List dimana user dapat melakukan Create, Read, Update dan Delete pekerjaan atau hal yang harus diselesaikan.
 
 PEMBAGIAN TUGAS : 
+1. Naufal Anbial Falah :
+2. Melan Caniadi : 
+3. Yulia Dwi Putri : 
 
 
 LINK HOSTING : 
+https://uaptodolist.000webhostapp.com 
